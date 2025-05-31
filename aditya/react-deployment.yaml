@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reacttodo-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: reacttodo-ui
+  template:
+    metadata:
+      labels:
+        app: reacttodo-ui
+    spec:
+      containers:
+        - name: reacttodo-ui
+          image: adityaacr12356789.azurecr.io/reacttodo-ui:latest
+          ports:
+            - containerPort: 80

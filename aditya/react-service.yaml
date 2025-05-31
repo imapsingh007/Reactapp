@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: reacttodo-ui-svc
+spec:
+  type: NodePort
+  selector:
+    app: reacttodo-ui
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 31234  # Choose a port between 30000-32767
