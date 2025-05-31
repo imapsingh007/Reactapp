@@ -1,32 +1,9 @@
-Apply complete! Resources: 3 added, 1 changed, 2 destroyed.
-
-Outputs:
-
-acr_login_server = "adityaacr12356789.azurecr.io"
-aks_cluster_name = "aditya-aks"
-aks_kube_config = <sensitive>
-app_gateway_public_ip = "172.201.18.35"
-app_insights_instrumentation_key = <sensitive>
-frontdoor_endpoint_hostname = "aditya-fde-dadqeraacgf9cug9.z02.azurefd.net"
-function_app_default_hostname = "aditya-func.azurewebsites.net"
-key_vault_uri = "https://aditya-kv.vault.azure.net/"
-resource_group_name = "aditya-rg"
-sql_database_name = "aditya-sqldb"
-sql_server_fqdn = "aditya-sqlserver.database.windows.net"
-chirag@server:~/Desktop/ProjectB/A$ 
+https://chatgpt.com/share/683b4dd0-f204-800f-9ee4-4807dbd0c4e4
 
 
 
 
-backend_address_pool {
-  name = "reacttodo-backend"
 
-  backend_addresses = [
-    {
-      ip_address = "10.0.1.10" # <-- Replace with actual IP from above
-    }
-  ]
-}
 
 
 
